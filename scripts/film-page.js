@@ -16,7 +16,7 @@ filmList.forEach((film) => {
 });
 
 let html = `<div class="title-film-page">
-<img class="return-button js-return-button" src="../images/left-arrow.png" alt="">
+<img class="return-button js-return-button" src="../images/left-arrow.png" alt="Return">
 ${(matchingFilm._TranslatedTitle).toUpperCase()}
 </div>
 <div class="film-selection">
@@ -51,7 +51,7 @@ document.querySelector('.js-all-container').innerHTML = html;
 
 const returnButtonElement = document.querySelector('.js-return-button');
 returnButtonElement.addEventListener('click', () => {
-    document.location.href=`../index.html`;
+    document.location.href=`/index.html`;
 })
 
 const lectureButtonElement = document.querySelector('.js-lecture-button');
