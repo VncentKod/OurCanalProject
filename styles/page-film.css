@@ -1,0 +1,100 @@
+.film-selection {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    left: 50px;
+    right: 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.description-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+}
+
+.description {
+    color: rgb(221, 220, 220);
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.production {
+    display: flex;
+    flex-direction: column;
+    color: rgb(156, 152, 152); 
+    padding-bottom: 20px;
+}
+
+.lecture-button {
+    background-color: lightcoral;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    font-style: italic;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.lecture-button:hover {
+    opacity: 0.8;
+}
+
+.button-components {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.play-button {
+    padding-top: 7px;
+    padding-right: 5px;
+    height: 30px;
+}
+
+.actors-box {
+    display: flex;
+    height: 20px;
+    overflow: hidden;
+}
+
+.return-button {
+    padding: 10px 10px 10px 10px ;
+    width: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.return-button:hover {
+    background-color: lightcoral;
+}
+
+.return-button:active {
+    opacity: 0.8;
+}
+
+@media (max-width: 1000px) {
+    .film-selection {
+        flex-direction: column;
+    }
+    .description-box {
+        padding: 20px 20px 20px 20px;
+    }
+}
+
+.title-film-page {
+    display: flex;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding-top: 30px;
+}
+

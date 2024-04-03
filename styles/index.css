@@ -1,0 +1,22 @@
+.menu-bar-button {
+    background-color: #0d0d0d;
+    color: white;
+    font-family: "Hind";
+    font-size: 17.5px;
+    font-weight: 600;
+    border: none;
+    padding-right: 10px;
+    transition: color 0.15s;
+    transition: font-size 0.15s;
+    cursor: pointer;
+}
+
+.menu-bar-button:hover {
+    color: lightcoral;
+    font-size: 17.25px;
+}
+
+
+.selected-button {
+    color: lightcoral;
+}
